@@ -6,7 +6,7 @@ Convert string into Go variable name following Go naming convention
 
 ## Why created
 
-Although there are a lot of needs to generate go struct from various sources (DDL, yml, toml, JSON, etc), I couldn't find  common library to format struct field name that follows go naming convention. Plus, I found really nice little piece of code that formats variable name in [ChimeraCoder/gojson](https://github.com/ChimeraCoder/gojson).
+Although there are a lot of needs to generate go struct from various sources (DDL, yml, toml, JSON, etc), I couldn't find any common library to format struct field names that follow go naming convention. Plus, I found really nice little piece of code that formats variable name in [ChimeraCoder/gojson](https://github.com/ChimeraCoder/gojson).
 
 
 ## How to use
@@ -28,6 +28,8 @@ func ExamplePublicVarName() {
 		"foo_bar_buz",
 		"foo_bar___buz",
 		"foo_id",
+		"foo_tls",
+		"foo_json",
 	}
 
 	for _, s := range malformattedVars {
@@ -40,10 +42,12 @@ func ExamplePublicVarName() {
 	// foo_bar_buz -> FooBarBuz
 	// foo_bar___buz -> FooBarBuz
 	// foo_id -> FooID
+	// foo_tls -> FooTLS
+	// foo_json -> FooJSON
 
 }
 ```
 
 ## Credits
 
-Code is almost entirely borrowed from https://github.com/ChimeraCoder/gojson . Huge thanks for [ChimeraCoder](https://github.com/ChimeraCoder) !!
+Code is almost entirely borrowed from https://github.com/ChimeraCoder/gojson. Huge thanks to [ChimeraCoder](https://github.com/ChimeraCoder) !!
