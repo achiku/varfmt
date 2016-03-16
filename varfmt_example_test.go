@@ -1,9 +1,3 @@
-# varfmt
-Convert string into Go variable name
-
-## Synopsis
-
-```
 package varfmt_test
 
 import (
@@ -34,8 +28,3 @@ func ExamplePublicVarName() {
 	// foo_id -> FooID
 
 }
-```
-
-## Credits
-
-Code is almost entirely borrowed from https://github.com/ChimeraCoder/gojson
