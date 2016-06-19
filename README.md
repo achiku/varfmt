@@ -1,9 +1,10 @@
 # varfmt
-Convert string into Go variable name following Go naming convention
 
 [![Build Status](https://travis-ci.org/achiku/varfmt.svg?branch=master)](https://travis-ci.org/achiku/varfmt)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/achiku/varfmt/master/LICENSE)
 [![Go Report Card](https://goreportcard.com/badge/github.com/achiku/varfmt)](https://goreportcard.com/report/github.com/achiku/varfmt)
+
+Convert string into Go variable name following Go naming convention
 
 ## Why created
 
