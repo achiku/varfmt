@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/achiku/varfmt.svg?branch=master)](https://travis-ci.org/achiku/varfmt)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/achiku/varfmt/master/LICENSE)
+[![Doc](https://img.shields.io/badge/godoc-reference-blue.svg)](https://godoc.org/github.com/achiku/varfmt)
 [![Go Report Card](https://goreportcard.com/badge/github.com/achiku/varfmt)](https://goreportcard.com/report/github.com/achiku/varfmt)
 
 Convert string into Go variable name following Go naming convention
